@@ -1,17 +1,21 @@
+# Definindo a classe ListaDeCompras para representar a lista de compras
 class ShoppingList():
     def __init__(self):
         self.items = []
         self.amounts = []
 
+    # Adicionando um novo item à lista de compras
     def add_item(self, item, amount):
         self.items.append(item)
         self.amounts.append(amount)
 
+    # Removendo um item da lista de compras
     def remove_item(self, item):
         index = self.items.index(item)
         self.items.pop(index)
         self.amounts.pop(index)
 
+    # Listando todos os itens da lista de compras
     def list_items(self):
         print('Lista de Compras')
         for i in range(len(self.items)):
