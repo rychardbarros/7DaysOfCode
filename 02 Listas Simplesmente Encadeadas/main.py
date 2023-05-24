@@ -41,4 +41,17 @@ class ListPatient():
                 if present_patient.next_patient.id == id:
                     # Quando encontramos o paciente, atualizamos o ponteiro do paciente anterior para o próximo paciente
                     present_patient.next_patient = present_patient.next_patient.next_patient
+                    return
+                present_patient = present_patient.next_patient
+
+    # Método para imprimir todos os pacientes da lista
+    def list_patients(self):
+        if self.head is None:
+            print('Não há pacientes na Fila')
+        
+        else:
+            present_patient = self.head
+            while present_patient is not None:
+                print(f'Nome do Paciente:{present_patient.name} ID:{present_patient.id} Estado de Saude:{present_patient.health_status}')
+                present_patient = present_patient.next_patient
                     
