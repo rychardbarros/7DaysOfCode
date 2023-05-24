@@ -33,5 +33,12 @@ class ListPatient():
             # Se o paciente a ser removido for a cabeça da lista, basta atualizar o ponteiro para o próximo paciente
             self.head = self.head.next_patient
             return
-            
+
         else:
+            # Caso contrário, percorremos a lista até encontrar o paciente a ser removido
+            present_patient = self.head
+            while present_patient.next_patient is not None:
+                if present_patient.next_patient.id == id:
+                    # Quando encontramos o paciente, atualizamos o ponteiro do paciente anterior para o próximo paciente
+                    present_patient.next_patient = present_patient.next_patient.next_patient
+                    
