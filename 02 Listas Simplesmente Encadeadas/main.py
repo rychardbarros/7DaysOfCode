@@ -21,7 +21,7 @@ class ListPatient():
             present_patient = self.head
             while present_patient.next_patient is not None:
                 present_patient = present_patient.next_patient
-            present_patient = new_patient
+            present_patient.next_patient = new_patient
 
     # Método para remover um paciente da lista, recebe como parâmetro o id do paciente a ser removido
     def remove_patient(self, id):
@@ -47,11 +47,21 @@ class ListPatient():
     # Método para imprimir todos os pacientes da lista
     def list_patients(self):
         if self.head is None:
-            print('Não há pacientes na Fila')
-        
+            print("Não há pacientes nesta lista.")
         else:
             present_patient = self.head
             while present_patient is not None:
-                print(f'Nome do Paciente:{present_patient.name} ID:{present_patient.id} Estado de Saude:{present_patient.health_status}')
+                print(f"Nome: {present_patient.name}, ID: {present_patient.id}, Estado de saúde: {present_patient.health_status}")
                 present_patient = present_patient.next_patient
-                    
+
+
+list_patient = ListPatient()
+
+list_patient.add_patient(1, 'Rychard', 'Estavel')
+list_patient.add_patient(2, 'Estefany', 'Crítico')
+list_patient.add_patient(3, 'Marcio', 'Tratamento intensivo')
+list_patient.add_patient(4, 'João', 'Estavel')
+
+list_patient.remove_patient(3)
+
+list_patient.list_patients()
