@@ -26,12 +26,16 @@ class ListOrder():
             return
         else:
             for order in self.list_order:
-                print(f'Numero:{order.number} Nome: {order.name} Prato: {order.food} | Mesa:{order.table}')
+                print(f'Numero:{order.number} Nome: {order.name} | Prato: {order.food} | Mesa:{order.table}')
 
 list_order = ListOrder()
 
 list_order.add_order('01','Rychard','Pizza, Batata Frita', '5')
 list_order.add_order('02', 'João', 'Hambúrguer', '6')
 list_order.add_order('03', 'Marcio', 'Pastel', '7')
+
+list_order.order_list()
+
+list_order.remove_order()
 
 list_order.order_list()
