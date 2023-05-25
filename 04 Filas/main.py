@@ -26,3 +26,5 @@ class ListOrder():
         else:
             for order in self.list_order:
                 print(f'Numero:{order.number}, Nome: {order.name}, Prato:{order.food}')
+
+list_order = ListOrder()
