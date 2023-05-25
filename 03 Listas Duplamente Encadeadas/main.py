@@ -68,6 +68,9 @@ list_product.add_product('002', 'Arroz', '4.50', '2')
 list_product.add_product('003', 'Feijão', '7.00', '2')
 list_product.add_product('004', 'Café', '4.00', '15')
 
+list_product.remove_product('002')
 list_product.list_product()
 
+list_product.update_amount('004', '20')
+list_product.list_product()
             
