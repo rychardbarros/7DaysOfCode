@@ -59,5 +59,15 @@ class ListProduct():
             present_product = self.head
             while present_product is not None:
                 print(f'Nome:{present_product.name}, Codigo de Barras:{present_product.bar_code}, Valor:{present_product.value}, Quantidade:{present_product.amount}')
+                present_product = present_product.next_product
+
+list_product = ListProduct()
+
+list_product.add_product('001', 'Macarrão', '5.50', '4')
+list_product.add_product('002', 'Arroz', '4.50', '2')
+list_product.add_product('003', 'Feijão', '7.00', '2')
+list_product.add_product('004', 'Café', '4.00', '15')
+
+list_product.list_product()
 
             
