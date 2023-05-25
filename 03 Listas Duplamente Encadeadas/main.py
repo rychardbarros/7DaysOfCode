@@ -52,6 +52,14 @@ class ListProduct():
                 return
             present_product = present_product.next_product
 
+    def update_value(self, bar_code, new_value):
+        present_product = self.head
+        while present_product is not None:
+            if present_product.bar_code == bar_code:
+                present_product.value = new_value
+                return
+            present_product = present_product.next_product
+
     def list_product(self):
         if self.head is None:
             print('Não há produtos no estoque')
@@ -72,5 +80,8 @@ list_product.remove_product('002')
 list_product.list_product()
 
 list_product.update_amount('004', '20')
+list_product.list_product()
+
+list_product.update_value('001', '1.00')
 list_product.list_product()
             
