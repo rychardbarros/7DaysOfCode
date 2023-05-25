@@ -52,4 +52,12 @@ class ListProduct():
                 return
             present_product = present_product.next_product
 
+    def list_product(self):
+        if self.head is None:
+            print('Não há produtos no estoque')
+        else:
+            present_product = self.head
+            while present_product is not None:
+                print(f'Nome:{present_product.name}, Codigo de Barras:{present_product.bar_code}, Valor:{present_product.value}, Quantidade:{present_product.amount}')
+
             
