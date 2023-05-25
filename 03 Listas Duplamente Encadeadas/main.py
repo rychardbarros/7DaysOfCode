@@ -35,5 +35,12 @@ class ListProduct():
             self.tail = self.tail.previous_product
             self.tail.next_product = None
             return
-        
+        else:
+            present_product = self.head
+            while present_product is not None:
+                if present_product.bar_code == bar_code:
+                    present_product.previous_product.next_product = present_product.next_product
+                    present_product.next_product.previous_product = present_product.previous_product
+                    return
+                present_product = present_product.next_product
             
