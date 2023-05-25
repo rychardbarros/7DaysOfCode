@@ -19,7 +19,7 @@ class ListOrder():
         else:
             return self.list_order.pop(0)
 
-    def list_order(self):
+    def order_list(self):
         if len(self.list_order) < 1:
             print('Não há pedidos no momento!')
             return
@@ -28,3 +28,9 @@ class ListOrder():
                 print(f'Numero:{order.number}, Nome: {order.name}, Prato:{order.food}')
 
 list_order = ListOrder()
+
+list_order.add_order('01','Rychard','Pizza')
+list_order.add_order('02', 'João', 'Hambúrguer')
+list_order.add_order('03', 'Marcio', 'Pastel')
+
+list_order.order_list()
