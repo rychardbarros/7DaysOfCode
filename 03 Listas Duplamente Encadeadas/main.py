@@ -43,4 +43,13 @@ class ListProduct():
                     present_product.next_product.previous_product = present_product.previous_product
                     return
                 present_product = present_product.next_product
+    
+    def update_amount(self, bar_code, new_amount):
+        present_product = self.head
+        while present_product is not None:
+            if present_product.bar_code == bar_code:
+                present_product.amount = new_amount
+                return
+            present_product = present_product.next_product
+
             
