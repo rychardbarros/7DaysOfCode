@@ -8,4 +8,5 @@ class ListBook():
         self.pile_books = []
 
     def add_book(self, name, number_page):
-        
+        new_book = Book(name, number_page)
+        self.pile_books.append(new_book)
