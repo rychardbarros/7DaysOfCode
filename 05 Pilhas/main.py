@@ -4,5 +4,8 @@ class Book():
         self.name = number_page
 
 class ListBook():
+    def __init__(self):
+        self.pile_books = []
+
     def add_book(self, name, number_page):
         
