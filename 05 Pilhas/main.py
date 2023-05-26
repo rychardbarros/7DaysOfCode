@@ -16,4 +16,9 @@ class ListBook():
             return None
         return self.pile_books.pop()
 
-    def
+    def list_book_top(self):
+        index = len(self.pile_books) - 1
+        print(f'O livro do topo é: {self.pile_books[index]}')
+        return self.pile_books[index]
+
+    
