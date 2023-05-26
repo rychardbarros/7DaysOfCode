@@ -1,7 +1,7 @@
 class Book():
     def __init__(self, name, number_page):
         self.name = name
-        self.name = number_page
+        self.number_page = number_page
 
 class ListBook():
     def __init__(self):
@@ -20,5 +20,13 @@ class ListBook():
         index = len(self.pile_books) - 1
         print(f'O livro do topo é: {self.pile_books[index]}')
         return self.pile_books[index]
+
+    def book_list(self):
+        if len(self.pile_books) < 1:
+            print('Não há livros na pilha no momento')
+            return
+        else:
+            for book in self.pile_books:
+                print(f'Nome: {book.name}, número de páginas: {book.number_page}')
 
     
