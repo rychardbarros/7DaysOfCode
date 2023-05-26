@@ -18,15 +18,29 @@ class ListBook():
 
     def list_book_top(self):
         index = len(self.pile_books) - 1
-        print(f'O livro do topo é: {self.pile_books[index]}')
-        return self.pile_books[index]
+        book = self.pile_books[index]
+        return print(f'O livro do topo é: {book.name}')
+        
 
     def book_list(self):
         if len(self.pile_books) < 1:
             print('Não há livros na pilha no momento')
             return
-        else:
-            for book in self.pile_books:
-                print(f'Nome: {book.name}, número de páginas: {book.number_page}')
+        for book in self.pile_books:
+            print(f'Nome: {book.name}, número de páginas: {book.number_page}')
 
-    
+
+pile = ListBook()
+
+pile.add_book("O Festim dos Corvos", 608)
+pile.add_book("A Dança dos Dragões", 336)
+pile.add_book("A Guerra dos Tronos", 600)
+pile.add_book("A Fúria dos Reis", 648)
+pile.add_book("A Tormenta das Espadas", 848)
+
+pile.book_list()
+pile.list_book_top()
+
+pile.remove_book()
+pile.book_list()
+pile.list_book_top()
