@@ -15,3 +15,6 @@ After that run the files in some python compiler of your preference!
 <hr>
 
 # Day1
+The challenge for the day is to implement a simplified version of a shopping list using arrays. The list should allow adding new items, removing items, and listing all items.
+
+When adding a new item, the user must enter the name of the product and the desired quantity. When removing an item, the user must specify the name of the product. Finally, when listing all items, the list must display the product name and quantity in a readable format.
