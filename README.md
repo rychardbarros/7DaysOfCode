@@ -12,4 +12,6 @@ Choose the option that suits you best:
 ![image](https://github.com/rychardbarros/7DaysOfCode/assets/106812762/f5bd8676-fa56-478d-a80a-483c19a32820)
 
 After that run the files in some python compiler of your preference!
+<hr>
 
+# Day1
