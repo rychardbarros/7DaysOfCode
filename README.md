@@ -48,5 +48,7 @@ Queues have two basic operations:
 
    * Enqueue (queue, i.e., add to the end of the queue);
    * Dequeue (unqueue, i.e., remove the first element from the queue).
+   
+The challenge for the day is to implement a simple queue to manage orders for a restaurant. Each order can be represented by a string with the name of the dish and the table at which it was made. The system should allow you to add new orders to the queue, remove orders that have already been delivered and list all orders in the order they were placed.
 
 # Day 5
