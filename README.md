@@ -51,7 +51,7 @@ Queues have two basic operations:
    
 The challenge for the day is to implement a simple queue to manage orders for a restaurant. Each order can be represented by a string with the name of the dish and the table at which it was made. The system should allow you to add new orders to the queue, remove orders that have already been delivered and list all orders in the order they were placed.
 
-# Day 5
+# Day5
 Today you will practice another data structure, very similar to the row you saw yesterday: stacks! Let's understand what it means.
 
 Stacks are data structures that follow the "last in, first out" principle (i.e. LIFO, last in, first out). New elements are inserted on top of the stack and old elements are removed from the top of the stack.
