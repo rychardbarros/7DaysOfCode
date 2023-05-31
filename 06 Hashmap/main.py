@@ -5,4 +5,7 @@ class Game():
     def add_player(self, user):
         self.score[user] = 0
     
-    def 
+    def update_score(self, user, score):
+        if user in self.score:
+            self.score[user] += score
+
