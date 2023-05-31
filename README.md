@@ -39,3 +39,4 @@ The challenge for the day is to implement an inventory control system for a stor
 
 The system must allow you to add new products, remove products, update the stock quantity and list all products.
 
+# Day 4
