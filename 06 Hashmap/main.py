@@ -9,3 +9,7 @@ class Game():
         if user in self.score:
             self.score[user] += score
 
+    def remove_user(self, user):
+        del self.score[user]
+
+    
