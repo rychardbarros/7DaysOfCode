@@ -12,4 +12,12 @@ class Game():
     def remove_user(self, user):
         del self.score[user]
 
-    
+    def list_score(self):
+        if len(self.score) == 0:
+            print('Não há jogadores no momento!!!')
+            return
+        ranking = sorted(self.score.items(), key=lambda x: x[1], reverse=True)
+        for user, score in ranking:
+            print(f'{user}, pontos:{score}')
+
+    def 
