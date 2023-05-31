@@ -40,3 +40,11 @@ The challenge for the day is to implement an inventory control system for a stor
 The system must allow you to add new products, remove products, update the stock quantity and list all products.
 
 # Day 4
+Today you will practice one more structure: queueing! First, let's understand what they are.
+
+Queues are data structures that follow the first-in, first-out (FIFO) principle. New elements are inserted at the end of the queue, and old elements are removed from the beginning of the queue.
+
+Queues have two basic operations:
+
+   * Enqueue (queue, i.e., add to the end of the queue);
+   * Dequeue (unqueue, i.e., remove the first element from the queue).
