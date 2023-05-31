@@ -21,4 +21,8 @@ class Game():
             print(f'{user}, pontos:{score}')
 
     def get_winner(self):
-        
+        max_score = max(self.score.values())
+        for user, score in self.score.items():
+            if score == max_score:
+                print(f'O vencedor foi {user} com {score} pontos')
+        return user
