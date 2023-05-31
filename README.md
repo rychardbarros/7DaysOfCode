@@ -30,4 +30,12 @@ The challenge for today is to implement a patient management system in a hospita
 Each patient should have a name, an ID number, and the patient's current health status, such as "stable", "in intensive care", "critically ill", and so on.
 The system must allow you to add new patients, remove patients, and list all patients in order of arrival.
 
+# Day 3
+Today you will practice one more structure, the doubly chained list! First, let's understand what it means.
+
+Doubly chained lists are similar to simply chained lists, but each node also has a pointer to the previous node, allowing bidirectional access to the elements.
+
+The challenge for the day is to implement an inventory control system for a store using doubly chained lists. Each product must have a name, a barcode, a price and a stock quantity.
+
+The system must allow you to add new products, remove products, update the stock quantity and list all products.
 
