@@ -20,4 +20,5 @@ class Game():
         for user, score in ranking:
             print(f'{user}, pontos:{score}')
 
-    def 
+    def get_winner(self):
+        
