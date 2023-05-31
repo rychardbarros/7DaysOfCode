@@ -63,7 +63,7 @@ Stacks have two basic operations:
    
 The challenge of the day is to implement a simple stack to manage the books from "The Chronicles of Ice and Fire" (Game of Thrones) saga. Each book should have a name and the number of pages. The system must allow to add new books to the stack, remove books, show the book that is on top and list all the books in the stack.
 
-# Day 6
+# Day6
 Today you will practice hashmaps, also known as dictionaries (or even objects), in various languages!
 
 Hash tables are data structures that allow efficient storage and access of elements through a process of mapping keys to values using a hash function.
