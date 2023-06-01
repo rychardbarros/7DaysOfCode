@@ -4,4 +4,8 @@ class Product():
         self.name = name
         self.amount = amount
 
-#class Node():
+class Node():
+    def __init__(self, product):
+        self.right = None
+        self.left = None
+        self.product = product
