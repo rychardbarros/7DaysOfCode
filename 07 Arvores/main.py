@@ -59,6 +59,9 @@ if product_01 is not None:
 else:
     print("Product not found.")
 
+product_02 = tree.search_product(5)
+print(product_02) # retorna None
+
 
 
     
