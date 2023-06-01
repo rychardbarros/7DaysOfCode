@@ -28,3 +28,7 @@ class TreeProduct():
                 node.left = Node(product)
             else:
                 self._insert_product(product, node.left)
+        elif product.id > node.product.id:
+            if node.right is None:
+                node.right = Node(product)
+            else:
