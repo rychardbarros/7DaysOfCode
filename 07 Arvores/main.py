@@ -23,3 +23,8 @@ class TreeProduct():
             self._insert_product(product, self.source)
 
     def _insert_product(self, product, node):
+        if product.id < node.product.id:
+            if node.left is None:
+                node.left = Node(product)
+            else:
+                self._insert_product(product, node.left)
