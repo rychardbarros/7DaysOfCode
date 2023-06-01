@@ -39,8 +39,12 @@ class TreeProduct():
     def search_product(self, id):
         return self._search_product(id, self.source)
 
-    def _search_product(id, node):
+    def _search_product(self, id, node):
         if node is None or node.product.id == id:
             return node
-        
+        elif id < node.product.id:
+            return self._search_product(id, node.left)
+        else:
+            return self._search_product(id, node.right)
+
     
