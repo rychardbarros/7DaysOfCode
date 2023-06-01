@@ -33,5 +33,7 @@ class TreeProduct():
                 node.right = Node(product)
             else:
                 self._insert_product(product, node.right)
+        else:
+            node.product = product 
 
-                
+    def
