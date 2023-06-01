@@ -47,4 +47,6 @@ class TreeProduct():
         else:
             return self._search_product(id, node.right)
 
+tree = TreeProduct()
+
     
