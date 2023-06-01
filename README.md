@@ -69,3 +69,25 @@ Today you will practice hashmaps, also known as dictionaries (or even objects), 
 Hash tables are data structures that allow efficient storage and access of elements through a process of mapping keys to values using a hash function.
 
 Today's challenge is to implement a scoring system for online games using a hashmap technique . Each player will have a username and an associated number of points, and the system should allow you to add new players, update the scores of existing players, remove players, and list all players in descending order of points, as well as determine which player is the winner.
+
+# Day7
+Today you are going to practice another data structure: trees! Let's understand how this structure works.
+
+Trees are a data structure widely used in computer science to represent hierarchies of information. They consist of a set of nodes interconnected by edges (often represented by arrows), where each node contains a value and can have zero or more children. The node at the top of the tree is called the root, and nodes without children are called leaves. To tell if a tree has reached its end, is when a node points to null.
+
+Trees can be classified into several categories, depending on their characteristics and the problem to be solved. Some of the most common categories are:
+      
+   * <a href = "https://www.geeksforgeeks.org/binary-tree-data-structure/"> Binary Trees </a>
+   * <a href = "https://www.geeksforgeeks.org/balanced-binary-tree/"> Balanced Trees </a>
+   * <a href = "https://www.geeksforgeeks.org/binary-search-tree-data-structure/"> Search Trees </a>
+   * <a href = "https://www.geeksforgeeks.org/decision-tree/"> Decision Trees </a>
+
+Imagine you are working on an inventory management system for an online store. You need to implement a binary tree that can store information about the products in stock. Each node in the tree should represent a product, and should contain the following information:
+
+      
+   * Product ID (a unique integer)
+   * Product name
+   * Quantity in stock
+   
+
+Your task is to implement a function that inserts a new product into the tree based on its ID. The function must take as input the new product ID, the name and the quantity in stock. If the ID already exists in the tree, the function should update the product information.
