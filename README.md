@@ -8,12 +8,6 @@ Data structures are ways that you can organize, store, and manipulate data in yo
 * <a href="https://www.alura.com.br/artigos/estruturas-de-dados-introducao?utm_source=ActiveCampaign&utm_medium=email&utm_content=%237DaysOfCode+-+Estruturas+de+Dados+2%2F7%3A+%F0%9F%91%A9%F0%9F%8F%BD%E2%80%8D%F0%9F%92%BB+Lista+simplesmente+encadeada&utm_campaign=%5BAlura+%237Days+Of+Code%5D%28Js+e+DOM+-+3%C2%AA+Ed+%29+2%2F7&vgo_ee=DfWuDbj4hE4x2qva1tiCeSjQTVmsDgxDgP5NoKUTtWLtgg5ZHxwJEx45caw%3D%3AsvwHE3XI5GVfz3Nmb9SHyCzOjZHBYqGP">Click here to consult a documentation in case you have doubts!!!</a>
 
 ## Installation:
-Navigate to the repository: ![image](https://github.com/rychardbarros/7DaysOfCode/assets/106812762/9e9e77f3-8dc5-4c83-8858-80489158401e)
-
-Choose the option that suits you best:
-
-![image](https://github.com/rychardbarros/7DaysOfCode/assets/106812762/f5bd8676-fa56-478d-a80a-483c19a32820)
-
 After that run the files in some python compiler of your preference!
 <hr>
 
