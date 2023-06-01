@@ -16,7 +16,6 @@ class TreeProduct():
 
     def insert_product(self, id, name, amount):
         product = Product(id, name, amount)
-
         if self.source is None:
             self.source = Node(product)
         else:
@@ -48,5 +47,12 @@ class TreeProduct():
             return self._search_product(id, node.right)
 
 tree = TreeProduct()
+
+tree.insert_product('1', 'Tenis', '10')
+tree.insert_product('2', 'Camiseta', '15')
+tree.insert_product('3', 'Calça', '7')
+
+product_01 = tree.search_product(2)
+print(product_01.product.name)
 
     
