@@ -9,3 +9,7 @@ class Node():
         self.right = None
         self.left = None
         self.product = product
+
+class TreeProduct():
+    def __init__(self):
+        self.source = None
