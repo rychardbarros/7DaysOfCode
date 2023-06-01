@@ -48,11 +48,17 @@ class TreeProduct():
 
 tree = TreeProduct()
 
-tree.insert_product('1', 'Tenis', '10')
-tree.insert_product('2', 'Camiseta', '15')
-tree.insert_product('3', 'Calça', '7')
+tree.insert_product(1, 'Tenis', '10')
+tree.insert_product(2, 'Camiseta', '15')
+tree.insert_product(3, 'Calça', '7')
 
 product_01 = tree.search_product(2)
-print(product_01.product.name)
+
+if product_01 is not None:
+    print(f'Product ID: {product_01.product.id} \nProduct Name: {product_01.product.name} \nProduct Amount: {product_01.product.amount}')
+else:
+    print("Product not found.")
+
+
 
     
