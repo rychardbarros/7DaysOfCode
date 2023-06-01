@@ -13,3 +13,13 @@ class Node():
 class TreeProduct():
     def __init__(self):
         self.source = None
+
+    def insert_product(self, id, name, amount):
+        product = Product(id, name, amount)
+
+        if self.source is None:
+            self.source = Node(product)
+        else:
+            self._insert_product(product, self.source)
+
+    def _insert_product(self, product, node):
