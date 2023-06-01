@@ -32,3 +32,6 @@ class TreeProduct():
             if node.right is None:
                 node.right = Node(product)
             else:
+                self._insert_product(product, node.right)
+
+                
