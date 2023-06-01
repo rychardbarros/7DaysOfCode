@@ -36,4 +36,7 @@ class TreeProduct():
         else:
             node.product = product 
 
-    def
+    def search_product(self, id):
+        return self._search_product(id, self.source)
+
+    
