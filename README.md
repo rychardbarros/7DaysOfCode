@@ -1,5 +1,8 @@
 # 7DaysOfCode
-🐍 Objective will be to practice on the main data structures in the computing world.
+![Python](https://img.shields.io/badge/-Python-181717?&logo=Python&logoColor=008000)
+
+🐍 Objective will be to practice on the main data structures in the computing world.<br>
+
 <hr>
 
 ## Introduction...
